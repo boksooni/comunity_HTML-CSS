@@ -1,0 +1,139 @@
+body {
+    background-color: #FFDFDC;
+    background-image: url(./pattern.png);
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.bookcover {
+    background-color: #FFC6C3;
+    border-radius: 9px;
+    border: 1px solid #828282;
+    width: 960px;
+    height: 700px;
+    margin: 85px auto;
+    position: relative;
+    
+}
+
+.bookdot {
+    border: dashed whitesmoke;
+    position: absolute;
+    border-radius: 9px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.page {
+    border: solid whitesmoke;
+    border-radius: 9px;
+    position: absolute;
+    background-color: whitesmoke;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+/** day 6 **/
+.container {
+    display: flex;
+    
+    height: 100%;
+}
+.profile-wrapper {
+    flex: 0.4; /** container flex-direction column**/
+    display:flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    
+
+}
+.visit {
+    flex: 0.05;  /** profile-wrapper flex-direction column**/
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+    margin: 0;
+
+}
+.profile {
+    flex: 1;  /** profile-wrapper flex-direction column**/
+    background-color: #FFC6C3;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.main {
+    flex: 0.8;  /** container flex-direction column**/
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 10px 10px;
+
+}
+.title-wrapper {
+    display: flex;
+    flex-direction: row;    
+}
+.title {
+    flex: 0.1; /** main flex-direction column**/
+    flex: 0.7; /** title-wrapper flex-direction row**/
+    padding: 10px 10px 5px 10px;
+    
+}
+.url {
+    flex: 0.1; /** main flex-direction column**/
+    flex: 0.3; /** title-wrapper flex-direction row**/
+    text-align: right;
+    padding: 10px 10px 5px 10px;
+}
+
+/** day7 **/
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.pro_img {
+    flex: 0.3;
+    margin: 25px;
+}
+.pro_intro {
+    flex: 0.4;
+    margin: 0px 20px 20px;
+}
+
+/** day9 **/
+.surfing {
+    width: 15em;
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
+
+.menu {
+    cursor: pointer;
+    display: flex;
+    flex: 0.15;
+    flex-direction: column;
+}
+
+
+.menu div {
+    flex: 0.2;
+    background: #FFC6C3;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 0 5px 5px 0;
+}
+
+.menu div:hover {
+    background: #aaa;
+}

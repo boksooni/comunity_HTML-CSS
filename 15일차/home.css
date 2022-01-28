@@ -1,0 +1,68 @@
+.main-wrapper {
+    flex: 1;
+    background-color: #FFC6C3;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+
+}
+.menu_container {
+    flex: 0.1;  /** container flex-direction column**/
+
+    margin: 50px 0px;
+}
+.update_wrapper {
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+}
+
+.updatemenu_wrapper {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+}
+
+.update_title, .mini_room {
+    margin-left: 10px;
+    border-bottom: 1px solid salmon;
+    margin-top: 5px;
+}
+
+.update_wrapper, .updatemenu_wrapper {    /** .update_intro style="display: flex;"  가로사이즈조절**/
+    align-content: stretch;
+}
+
+.menu1, .menu2 {
+    border-bottom: 1px dashed salmon;
+}
+
+.icon1, .icon3 { 
+    background-color: #f2625e;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin: 5px 5px 0px 10px;
+    padding: 3px;
+}
+
+.icon2, .icon4 {
+    background-color: #667ac0 ;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin: 5px 5px 0px 10px;
+    padding: 3px;
+}
+.topic1, .topic2, .topic3, .topic4 {
+    margin: 5px 5px 0px 10px;
+}
+.menu_number {
+    color: #667ac0
+}
+
+/** day9 **/
+.miniroom_img {
+    width: 30em;
+    height: 15em;
+    margin: 2em;
+}
